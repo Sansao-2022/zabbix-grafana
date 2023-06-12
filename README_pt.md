@@ -10,6 +10,8 @@ Se você estiver usando o Zabbix 5.0 LTS ou usando uma versão anterior ao relea
   - Zabbix Server zabbix-server:10051
   - Zabbix Agent em: zabbix-agent:10050
   - Zabbix Frontend em: [http://zabbix-frontend:8080](http://zabbix-frontend:8080)
+  - Zabbix User:Admin
+  - Zabbix Password:zabbix
 - Banco de dados:
   - Postgresql em : postgresql:5432
   - PGAdmin em : [http://pgadmin:5050](http://pgadmin:5050)
@@ -17,6 +19,7 @@ Se você estiver usando o Zabbix 5.0 LTS ou usando uma versão anterior ao relea
 - Ferramentas de apoio:
   - Zapix em: [http://zapix](http://zap)
   - Grafana em: [http://grafana:3000](http://grafana:3000)
+       User:zabbix Password:zabbix
   - Mailhog: [http://mailhog:8025](http://mailhog:8025)
 - Provisionamento / Pré-configurações:
   - Grafana já está provisionado com :
