@@ -7,12 +7,6 @@ volumes:
     driver: local
   pgadmin_data:
     driver: local
-  gitlab_config:
-    driver: local
-  gitlab_logs:
-    driver: local
-  gitlab_data:
-    driver: local
 
 services:
   zabbix-server:
